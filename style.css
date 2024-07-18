@@ -1,0 +1,39 @@
+html{
+  background-color: black;
+  height: 100%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container{
+  overflow:hidden;
+  max-width: 280px;
+}
+.display-text-style{
+  color: white;
+  font-size: 45px;
+  margin-bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  text-overflow:ellipsis
+}
+.button-main, .button-orange{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 26px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.button-orange{
+  background-color: rgb(254, 160, 10);
+}
+.button-clear{
+  font-size: 17px;
+}
